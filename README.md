@@ -1,5 +1,7 @@
 # seamless-async
 
+[![Clojars Project](https://img.shields.io/clojars/v/com.github.s-doti/seamless-async.svg)](https://clojars.org/com.github.s-doti/seamless-async)
+
 A Clojure library for making async.. seamless.
 
 ### seam·less (adjective)
