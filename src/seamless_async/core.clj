@@ -116,7 +116,8 @@
                 (if (chan? elem)
                   (async/take! elem
                                #(resolve-next (conj unresolved %)
-                                              resolved))
+                                              resolved)
+                               false)
                   (let [resolved (conj resolved elem)]
                     (if (not-empty unresolved)
                       (recur unresolved resolved)
